@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="POM-parallel"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <listAttribute key="org.testng.eclipse.SUITE_TEST_LIST">
+        <listEntry value="C:\Users\rahul\testleaf\POM-parallel\week7.day2.learnparallelexecu.xml"/>
+    </listAttribute>
+    <intAttribute key="org.testng.eclipse.TYPE" value="3"/>
+</launchConfiguration>

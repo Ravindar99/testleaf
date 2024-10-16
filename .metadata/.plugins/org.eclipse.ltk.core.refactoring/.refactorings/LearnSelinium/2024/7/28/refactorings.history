@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;week4.day1.Alert&apos; to &apos;LearnAlert&apos;&#x0D;&#x0A;- Original project: &apos;LearnSelinium&apos;&#x0D;&#x0A;- Original element: &apos;week4.day1.Alert&apos;&#x0D;&#x0A;- Renamed element: &apos;week4.day1.LearnAlert&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Alert&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;week4.day1{Alert.java[Alert" matchStrategy="1" name="LearnAlert" qualified="false" references="true" similarDeclarations="false" stamp="1720851884440" textual="false" version="1.0"/>
+</session>

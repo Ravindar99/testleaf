@@ -1,0 +1,20 @@
+package week1.day2;
+
+public class EvenNumbersDivsibleBy7 {
+	public static void main(String[] args) {
+		for(int r = 1;r<=1000;r++) {
+			if (r==550) {
+				break;
+			}
+			if (r%2==0) {
+				if (r%7==0) {
+					System.out.println(r);
+					continue;
+				}
+					
+			}
+		}
+		}
+	}
+	
+

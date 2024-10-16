@@ -1,0 +1,23 @@
+package week3.assingment;
+
+public class LengthOfLastWord {
+	public static int length(String last) {
+		String l = last.trim();
+		int count =0;
+		for (int i =l.length()-1; i>=0; i--) {
+			//length is exact i.e it starts from 1 2 3......, array index starts from 0 1 2 3 .......
+			if (l.charAt(i)==' ') {
+				break;
+			}
+			else {
+				count++;
+			}
+		}
+		return count;
+	}
+	public static void main(String[] args) {
+		LengthOfLastWord input = new LengthOfLastWord();
+		System.out.println(input.length("Hello World"));
+	}
+
+}

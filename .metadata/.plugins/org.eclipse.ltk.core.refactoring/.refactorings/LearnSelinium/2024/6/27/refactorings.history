@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;week2.day1.Array&apos; to &apos;FindDups&apos;&#x0D;&#x0A;- Original project: &apos;LearnSelinium&apos;&#x0D;&#x0A;- Original element: &apos;week2.day1.Array&apos;&#x0D;&#x0A;- Renamed element: &apos;week2.day1.FindDups&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Array&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;week2.day1{Array.java[Array" matchStrategy="1" name="FindDups" qualified="false" references="true" similarDeclarations="false" stamp="1719722031564" textual="false" version="1.0"/>
+</session>

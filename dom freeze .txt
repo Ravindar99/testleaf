@@ -1,0 +1,5 @@
+dom freeze 
+setTimeout(function(){debugger;},5000); 
+
+java click
+driver.executeScript("arguments[0].click();", login);

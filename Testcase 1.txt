@@ -1,0 +1,42 @@
+Testcase: 1
+---------------
+
+
+1) Launch the Browser
+2) Load the Url "https://www.pvrcinemas.com/"
+3) Choose Your location as "Chennai"
+4) Click on Cinima under Quick Book
+5) Select Your Cinima
+6) Select Your Date as Tomorrow
+7) Select Your Movie
+8) Select Your Show Time
+9) Click on Book Button
+10) Click Accept on Term and Condition
+11) Click any one available seat
+12) Click Proceed Button
+13) Print the Seat info under book summary
+14) Print the grand total under book summary
+15) Click Proceed Button
+16) Close the popup
+17) Print Your Current Page title
+18) Close Browser
+
+
+
+TestCase: 2
+------------------
+
+
+01) Launch Chrome  
+02) Load https://www.amazon.in/
+     add  implicitlyWait
+     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+03) Type "Bags for boys" in the Search box
+04) Choose the   item in the result (bags for boys)
+05) Print the total number of results (like 50000)
+    1-48 of over 50,000 results for "bags for boys"
+06) Select the first 2 brands in the left menu
+    (like American Tourister, Generic)
+07) Choose New Arrivals (Sort)
+08) Print the first resulting bag info (name, discounted price)
+09) Get the page title and close the browser(driver.close())

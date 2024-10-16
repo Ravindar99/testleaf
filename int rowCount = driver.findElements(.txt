@@ -1,0 +1,2 @@
+int rowCount = driver.findElements(By.xpath("//div[@id='divTrainsList']/table[1]/tbody/tr")).size();
+int rowCount = driver.findElement(By.xpath("//div[@id='divTrainsList']/table[1]//tr")).size();

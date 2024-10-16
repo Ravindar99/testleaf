@@ -1,0 +1,7 @@
+git and GitHub
+
+insert created local file text_2 
+add git add text_2
+commit git commit -m "text_2 (commit message)"
+and pushed git push origin main
+text_2 from local repository(system) to git repository(internet)

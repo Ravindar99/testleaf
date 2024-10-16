@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;makaia_framework-master&apos; to &apos;Makaia&apos;" description="Rename resource &apos;makaia_framework-master&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/makaia_framework-master" name="Makaia" stamp="1724047780192" updateReferences="true"/>
+</session>

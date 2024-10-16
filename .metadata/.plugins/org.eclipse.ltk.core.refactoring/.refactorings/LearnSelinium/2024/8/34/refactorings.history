@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;learn excell&apos; to &apos;ThreadLocalPOM/src/main/java/utils&apos;&#x0D;&#x0A;- Original project: &apos;LearnSelinium&apos;&#x0D;&#x0A;- Destination element: &apos;ThreadLocalPOM/src/main/java/utils&apos;&#x0D;&#x0A;- Original element: &apos;learn excell&apos;" description="Copy folder" destination="=ThreadLocalPOM/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;utils" element1="src/main/java/week6/day1/learn excell" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1724000795609" units="0" version="1.0"/>
+</session>

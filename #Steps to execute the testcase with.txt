@@ -1,0 +1,10 @@
+#Steps to execute the testcase without static keyword (Parallel Execution)
+--------------------------------------------------------------------------
+1. Remove the static keyword for the driver variable in ProjectSpecificMethod
+2. In the testcase method Pass the driver value into the LoginPage constructor
+3. Do mouseHover and Create a constructor for Loginpage
+4. Inside the constructor assign local variable driver value to the global variable driver(this.driver = driver)
+5. pass driver variable value for the all the constructor for pages class and also assign the variable value inside the constructor
+
+Hi Team, Provide the feedback for this week
+https://forms.office.com/r/iQ0ZXYKcNP

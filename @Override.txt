@@ -1,0 +1,30 @@
+@Override
+	public WebElement locateElement(String value) {
+		try {
+			WebElement findElementById = getDriver().findElement(By.id(value));
+			return findElementById;
+		} catch (NoSuchElementException e) {
+			reportStep("The Element with locator id Not Found with value: " + value + "\n" + e.getMessage(), "fail");
+		} catch (Exception e) {
+			reportStep("The Element with locator id Not Found with value: " + value + "\n" + e.getMessage(), "fail");
+		}
+		return null;
+	}
+@Override
+	public void clearAndType(WebElement ele, String data) {
+		try {
+			getWait().until(ExpectedConditions.visibilityOf(ele));
+			ele.clear();
+			ele.sendKeys("", "", data);
+		} catch (ElementNotInteractableException e) {
+			reportStep("The Element " + ele + " is not Interactable \n" + e.getMessage(), "fail");
+		} catch (WebDriverException e) { // retry - 1
+			pause(500);
+			try {
+				ele.sendKeys(data);
+			} catch (Exception e1) {
+				reportStep("The Element " + ele + " did not allow to clear / type \n" + e.getMessage(), "fail");
+			}
+		}
+
+	}

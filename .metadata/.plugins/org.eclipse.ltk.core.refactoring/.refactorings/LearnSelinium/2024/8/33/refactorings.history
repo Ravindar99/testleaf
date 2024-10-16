@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;week8.day2.LearnEncapsulation.emi&apos; in &apos;week8.day2.LearnEncapsulation&apos;&#x0D;&#x0A;- Original project: &apos;LearnSelinium&apos;&#x0D;&#x0A;- Original element: &apos;week8.day2.LearnEncapsulation.emi&apos;&#x0D;&#x0A;- Getter method name: &apos;getEmi&apos;&#x0D;&#x0A;- Setter method name: &apos;setEmi&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;emi&apos;" flags="589830" getter="getEmi" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;week8.day2{LearnEncapsulation.java[LearnEncapsulation^emi" insertion="-1" setter="setEmi" stamp="1723348651370" version="1.0" visibility="1"/>
+</session>

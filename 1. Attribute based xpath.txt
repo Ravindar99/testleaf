@@ -1,0 +1,35 @@
+1. Attribute based xpath
+   Syntax:
+   //tagname[@attribute='attributeValue']
+
+   //label[@for ='username']
+   //label[@for='password']
+
+2. Text based xpath
+
+   Syntax:
+   //tagname[text()='text value']
+
+   //h2[text()='Leaftaps Login']
+   //span[text()='Learn More']
+   //a[text()='Commerce Setup Assistant']
+
+3. Collection based xpath
+
+   Syntax:
+   (any xpath)[index] Index will starts from 1
+   (//span[@class=' label bBody'])[3]
+   (//span[text()='Get Started'])[2]
+
+4. Partial text based xpath
+
+   syntax: 
+   
+      //tagname[contains(text(),'partial text')]
+      //a[contains(text(),'Lightning E')]
+
+5. Partial Attribute based xpath
+
+   syntax:
+      //tagname[contains(@attributeName,'partial attribute value')]
+      //button[contains(@class,'ui-state-disabled')]

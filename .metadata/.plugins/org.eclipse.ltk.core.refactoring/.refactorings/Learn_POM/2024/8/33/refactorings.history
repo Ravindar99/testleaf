@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;PomCucumber/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Learn_POM&apos;&#x0D;&#x0A;- Destination element: &apos;PomCucumber/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Learn_POM/src/main/java/base&#x0D;&#x0A;     Learn_POM/src/main/java/page&#x0D;&#x0A;     Learn_POM/src/main/java/testcases" description="Copy packages" destination="=PomCucumber/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;base" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;page" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;testcases" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1723349396688" version="1.0"/>
+</session>

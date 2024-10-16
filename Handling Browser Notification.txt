@@ -1,0 +1,11 @@
+Handling Browser Notification
+------------------------------
+
+
+ChromeOptions option = new ChromeOptions();
+
+
+option.addArguments("--disable-notifications");
+
+
+ChromeDriver driver = new ChromeDriver(option);

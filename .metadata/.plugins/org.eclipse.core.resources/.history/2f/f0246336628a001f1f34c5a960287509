@@ -1,0 +1,32 @@
+package page;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+
+import TestNgBase.ProjectSpecificMethods;
+import design.Locators;
+
+public class SearchPage extends ProjectSpecificMethods{
+	
+	public SearchPage SearchText(String text){
+		try {
+			clearandtype(locateElement(Locators.xpath,"//input[@id='twotabsearchtextbox']"),text);
+			reportStep("The  text "+text+" is entered successfully", "pass");
+		} catch (Exception e) {
+			reportStep(text+" text is failed to enter", "fail");
+		}
+		return this;
+	}
+	
+	public SearchPage ClickSearch() {
+		click(Locators.xpath, "//input[@id='nav-search-submit-button']");
+		return this;
+	}
+	public ProductPage clickOnTheFirstProduct() {
+			click(Locators.xpath,"(//span[@class='a-size-medium a-color-base a-text-normal'])[1]");
+			switchtowindow(1);
+			return new ProductPage();
+	}
+}

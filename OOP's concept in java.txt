@@ -1,0 +1,42 @@
+OOP's concept in java
+1, Abstraction:
+	to hide unnecessary data from the user
+	is like a blueprint to sub class
+		abstract methods does not contains a body
+		contains both abstract and concrete classes
+		if a class has at least one abstract method the class is set to be an abstract class
+		keyword : implements in my project
+		Interface and Abstract class
+		my project : browser, element class are interface 
+
+2,Encapsulation
+	used to bind data and methods in a class/ bundling data and methods in a single unit(class)
+	used to safeguard info with the help of private access modifier
+	to allow access to the private variables we use getter and setter methods
+		my project : private and private static final
+			private is used to encapsulate a variable in that particular class 
+			private static final ThreadLocal is used to encapsulate the data in method like get and set and then the data is used in sub class
+			threadlocal is used to store data for each thread / ensures thread safety
+				each request is handled by a separate thread but is associated with a specific user. 
+			thread is the execution path in a program
+			examples : private static final ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<RemoteWebDriver>();
+		Types : 1, member variable encapsulation : my project : variable like pattern, filename are declared as private to avoid access to user
+			2, method/ function encapsulation : same as the above but here we encapsulate a method
+			3, class encapsulation
+
+3, Inheritence 
+	used to extend the features of one class(superclass) to another class(sub class)
+	keyword : extends
+	my project : driverbase has chrome and other driver methods which is extended to Projectspecific method which contains before and after method of 	TestNg which in turn is extended to page package that contains action classes like login search etc..
+	
+	Types : Single(class A to class B), Multilevel(class A to class B to class C), Hierarchical(class A to class B)(class A to class C), 
+		Multiple - not supported in java
+	
+4, Polymorphism
+	same object with different parameters or behaviors 
+	Types : 1, Compile time Polymorphism : Method overloading
+			same method with diff arguments
+			Example : public void int(int a, int b) | public void int(int a, int b, int c)
+		2, run time polymorphism : method overriding/ dynamic method dispatch
+			child class access methods in super class and can change it
+			my project : switch to alert method in interface class has been extended to selenium base sub class and the methods is overrided 			with body 

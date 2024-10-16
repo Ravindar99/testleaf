@@ -1,0 +1,10 @@
+package week2.day1;
+
+public class FindDups {
+public static void main(String[] args) {
+	String[] names = {"Name1","Name2","Name3"};
+	for(String n: names)
+	System.out.println(n);
+	
+}
+}

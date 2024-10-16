@@ -1,0 +1,17 @@
+package week2.day1;
+
+import java.util.Arrays;
+
+public class FindDups {
+public static void main(String[] args) {
+	int[] num={2, 5, 7, 7, 5, 9, 2, 3};
+	Arrays.sort(num);
+	int[] num1=new int[8];
+	for (int i = 0; i < num.length; i++) {
+		System.out.println("The duplicate values are");
+		if (num==num1) {
+			System.out.println(i);
+		}
+	}
+}
+}
