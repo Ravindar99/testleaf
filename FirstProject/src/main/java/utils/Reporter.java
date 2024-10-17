@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
@@ -76,10 +78,26 @@ public abstract class Reporter extends DriverBase {
 				} else if (status.equalsIgnoreCase("info")) {
 					test.info(desc);
 				}
+				else if (status.equalsIgnoreCase("skipped")) {
+					test.info(desc);
+				}
 			}
 		}
 	}
-
+	
+	/*
+	 * public long takeSnap() { 
+	 * long number = (long) Math.floor(Math.random() *90000L) + 10000L; 
+	 * //save the snap name in long value from 10000000L to 909999999L 
+	 * try {
+	 * FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./"+Reporter.foldername+"/Photos/" + number + ".jpg")); 
+	 * } 
+	 * catch(Exception e) { 
+	 * reportStep(e.getMessage(), "fail"); 
+	 * } 
+	 * return number; 
+	 * }
+	 */
 	public void reportStep(String desc, String status) {
 		reportStep(desc, status, true);
 	}

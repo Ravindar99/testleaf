@@ -48,11 +48,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="SampleProject"/>
 			<item value="org.myowm"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="org.sampleproject"/>
 			<item value="FirstProject"/>
 		</list>
 		<list key="projectNameTemplate">

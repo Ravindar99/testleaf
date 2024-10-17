@@ -11,6 +11,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class Report {
 	
 	public static ExtentReports extent;
+	public static ExtentTest test;
 	public String tetcasename,tesdesc,author,category;
 	public static String foldername = "";
 	
@@ -34,9 +35,13 @@ public class Report {
 	}
 	
 	public void SetDetails() {
-		ExtentTest test = extent.createTest(tetcasename, tesdesc);
+		test = extent.createTest(tetcasename, tesdesc);
 		test.assignAuthor(author);
 		test.assignCategory(category);
-		
 	}
+	
+	//create a method to take ss - mediaentitymodelprovider, build, path, takescreenshotas, outputfile.as, copyfile
+	//dont need to take ss or log test details if the status is info skip etc..
+	//so need if condition for the above
+	
 }

@@ -48,9 +48,12 @@
     <fullyQualifiedTypeName name="base.SeleniumBase"/>
     <fullyQualifiedTypeName name="design.Locators"/>
     <fullyQualifiedTypeName name="TestNgBase.ProjectSpecificMethods"/>
-    <fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.ExtentHtmlReporter"/>
-    <fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentReports"/>
-    <fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentTest"/>
     <fullyQualifiedTypeName name="base.DriverBase"/>
     <fullyQualifiedTypeName name="utils.Reporter"/>
+    <fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.ExtentHtmlReporter"/>
+    <fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentReports"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentTest"/>
 </qualifiedTypeNameHistroy>
