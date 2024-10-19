@@ -31,13 +31,10 @@
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeSuite"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeClass"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
-    <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
     <fullyQualifiedTypeName name="org.testng.annotations.AfterSuite"/>
     <fullyQualifiedTypeName name="week8.day2.LearnEncapsulation"/>
     <fullyQualifiedTypeName name="base.ProjectSpecificMethod"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-    <fullyQualifiedTypeName name="com.aventstack.extentreports.MediaEntityBuilder"/>
     <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
     <fullyQualifiedTypeName name="utils.DataInt"/>
     <fullyQualifiedTypeName name="design.Browser"/>
@@ -56,4 +53,8 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentTest"/>
+    <fullyQualifiedTypeName name="com.aventstack.extentreports.MediaEntityModelProvider"/>
+    <fullyQualifiedTypeName name="com.aventstack.extentreports.MediaEntityBuilder"/>
+    <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
 </qualifiedTypeNameHistroy>
