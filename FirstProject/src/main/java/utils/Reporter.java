@@ -47,7 +47,8 @@ public abstract class Reporter extends DriverBase {
 		extent.flush();
 	}
 
-	 @BeforeClass(alwaysRun = true) public void SetReportDetails() {
+	 @BeforeClass(alwaysRun = true) 
+	 public void SetReportDetails() {
 		 test = extent.createTest(testcaseName,testcaseDes); 
 		 test.assignAuthor(AuthorName);
 		 test.assignCategory(CategoryName);
@@ -84,6 +85,8 @@ public abstract class Reporter extends DriverBase {
 			}
 		}
 	}
+	//takesnap returns a unique identifier which is then stored to snapNumber
+	
 	
 	/*
 	 * public long takeSnap() { 

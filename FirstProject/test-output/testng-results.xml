@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-16T11:40:11 IST" name="Default suite" finished-at="2024-10-16T11:40:22 IST" duration-ms="10770">
+  <suite started-at="2024-10-19T11:58:42 IST" name="Default suite" finished-at="2024-10-19T11:58:53 IST" duration-ms="11037">
     <groups>
     </groups>
-    <test started-at="2024-10-16T11:40:11 IST" name="Default test" finished-at="2024-10-16T11:40:22 IST" duration-ms="10770">
+    <test started-at="2024-10-19T11:58:42 IST" name="Default test" finished-at="2024-10-19T11:58:53 IST" duration-ms="11037">
       <class name="test.TC_001_Search">
-        <test-method is-config="true" signature="StartReport()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-16T11:40:11 IST" name="StartReport" finished-at="2024-10-16T11:40:11 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-19T11:58:42 IST" name="StartReport" finished-at="2024-10-19T11:58:42 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartReport -->
-        <test-method is-config="true" signature="setData()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-16T11:40:11 IST" name="setData" finished-at="2024-10-16T11:40:11 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setData()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-19T11:58:42 IST" name="setData" finished-at="2024-10-19T11:58:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method is-config="true" signature="SetReportDetails()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-16T11:40:11 IST" name="SetReportDetails" finished-at="2024-10-16T11:40:11 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="SetReportDetails()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-19T11:58:42 IST" name="SetReportDetails" finished-at="2024-10-19T11:58:42 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetReportDetails -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-16T11:40:11 IST" name="precondition" finished-at="2024-10-16T11:40:14 IST" duration-ms="2953" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-19T11:58:42 IST" name="precondition" finished-at="2024-10-19T11:58:46 IST" duration-ms="3552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-16T11:40:14 IST" name="SearchAndClick" finished-at="2024-10-16T11:40:22 IST" duration-ms="7548" status="PASS">
+        <test-method signature="SearchAndClick()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-19T11:58:46 IST" name="SearchAndClick" finished-at="2024-10-19T11:58:53 IST" duration-ms="7197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-16T11:40:22 IST" name="postcondition" finished-at="2024-10-16T11:40:22 IST" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-19T11:58:53 IST" name="postcondition" finished-at="2024-10-19T11:58:53 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="EndReport()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-16T11:40:22 IST" name="EndReport" finished-at="2024-10-16T11:40:23 IST" duration-ms="559" status="PASS">
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:test.TC_001_Search@235ecd9f]" started-at="2024-10-19T11:58:53 IST" name="EndReport" finished-at="2024-10-19T11:58:54 IST" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndReport -->
