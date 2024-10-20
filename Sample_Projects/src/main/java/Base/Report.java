@@ -15,13 +15,12 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.MediaEntityModelProvider;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-public class Report {
+public class Report extends DriverBase{
 	
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	public String tetcasename,tesdesc,author,category;
 	public static String foldername = "";
-	public ChromeDriver driver;
 	
 	private String filename = "results.html";
 	private String pattern = "dd-MMM-yyy HH-mm-ss";
@@ -61,8 +60,7 @@ public class Report {
 		if(bsnap && !(status.equalsIgnoreCase("skip")||status.equalsIgnoreCase("info"))) { //condition ok 
 			// we can now build ss
 			try {
-				//intialized driver in the bellow code .....................................IMP..................
-				FileUtils.copyFile(driver.getScreenshotAs(OutputType.FILE), new File("./"+foldername+"/Image/"+photo+".jpg"));
+				FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./"+foldername+"/Image/"+photo+".jpg"));
 				img = MediaEntityBuilder.createScreenCaptureFromPath("./../../"+foldername+"/Image/"+photo+".jpg").build(); 
 				//need image number to build screenshot
 			} catch (IOException e) {
