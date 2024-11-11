@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public interface Element {
 	
 		
-	void executeTheScript(String js, WebElement ele);
+	public void executeTheScript(String js, WebElement ele);
 	
 	/**
 	 * This method will click the element and take snap

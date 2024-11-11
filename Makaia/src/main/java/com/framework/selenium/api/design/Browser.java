@@ -18,7 +18,7 @@ public interface Browser {
 	 * @param url - This will load the specified url  `
 	 * @author Sarath - TestLeaf
 	 * @throws MalformedURLException 
-	 */	
+ 	 */	
 	public void startApp(String url, boolean headless);
 	
 	/**
