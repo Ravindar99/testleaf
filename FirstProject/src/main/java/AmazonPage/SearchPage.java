@@ -25,7 +25,7 @@ public class SearchPage extends ProjectSpecificMethods{
 		return this;
 	}
 	public ProductPage clickOnTheFirstProduct() {
-			click(Locators.xpath,"(//span[@class='a-size-medium a-color-base a-text-normal'])[1]");
+			click(Locators.xpath,"(//a[@class='a-link-normal s-line-clamp-2 s-link-style a-text-normal'])[1]");
 			switchtowindow(1);
 			System.out.println(getDriver().getTitle());
 			 reportStep("The first Product", "pass"); 

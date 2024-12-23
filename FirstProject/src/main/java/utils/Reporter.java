@@ -21,8 +21,8 @@ import base.DriverBase;
 
 public abstract class Reporter extends DriverBase {
 
-	public static ExtentReports extent;
-	public static ExtentTest test;
+	private static ExtentReports extent;
+	private static final ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
 	public String testcaseName, testcaseDes, AuthorName, CategoryName;
 
 	private String pattern = "dd-MMM-yyyy HH-mm-ss";
@@ -49,14 +49,14 @@ public abstract class Reporter extends DriverBase {
 
 	 @BeforeClass(alwaysRun = true) 
 	 public void SetReportDetails() {
-		 test = extent.createTest(testcaseName,testcaseDes); 
-		 test.assignAuthor(AuthorName);
-		 test.assignCategory(CategoryName);
+		 test.set(extent.createTest(testcaseName, testcaseDes)); // Use test.set()
+		 test.get().assignAuthor(AuthorName);
+		 test.get().assignCategory(CategoryName);
 	 }
 	public abstract long takeSnap(); // already declared variable
 
 	public void reportStep(String desc, String status, boolean bSnap) {
-		synchronized (test) {
+		 
 
 			// Start reporting the step and snapshot
 			MediaEntityModelProvider img = null; // helps in creating screenshot first null value to not take a
@@ -71,36 +71,22 @@ public abstract class Reporter extends DriverBase {
 							.createScreenCaptureFromPath("./../../" + foldername + "/Photos/" + snapNumber + ".jpg")
 							.build();
 				} catch (IOException e) {
+					e.printStackTrace();
 				}
 				if (status.equalsIgnoreCase("pass")) {
-					test.pass(desc, img);
+					test.get().pass(desc, img);
 				} else if (status.equalsIgnoreCase("fail")) {
-					test.fail(desc, img);
+					test.get().fail(desc, img);
 				} else if (status.equalsIgnoreCase("info")) {
-					test.info(desc);
+					test.get().info(desc);
 				}
 				else if (status.equalsIgnoreCase("skipped")) {
-					test.info(desc);
+					test.get().info(desc);
 				}
 			}
 		}
-	}
-	//takesnap returns a unique identifier which is then stored to snapNumber
 	
 	
-	/*
-	 * public long takeSnap() { 
-	 * long number = (long) Math.floor(Math.random() *90000L) + 10000L; 
-	 * //save the snap name in long value from 10000000L to 909999999L 
-	 * try {
-	 * FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./"+Reporter.foldername+"/Photos/" + number + ".jpg")); 
-	 * } 
-	 * catch(Exception e) { 
-	 * reportStep(e.getMessage(), "fail"); 
-	 * } 
-	 * return number; 
-	 * }
-	 */
 	public void reportStep(String desc, String status) {
 		reportStep(desc, status, true);
 	}

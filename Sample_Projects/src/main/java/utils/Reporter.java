@@ -84,7 +84,7 @@ public class Reporter extends DriverBase{
 				test.skip(des);
 			}
 			else if (status.equalsIgnoreCase("warning")) {
-				test.warning(des)
+				test.warning(des);
 			}
 		}
 	}
