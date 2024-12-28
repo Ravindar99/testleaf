@@ -57,19 +57,14 @@ public class SeleniumBase extends Reporter implements Element,Browser {
 		getDriver().close();
 	}
 
-	@Override
-	public long takeSnap() {
-		long number = (long) Math.floor(Math.random() * 90000L) + 10000L;
-		//save the snap name in long value from 10000000L to 909999999L
-		try {
-			FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE),
-					new File("./"+Reporter.foldername+"/Photos/" + number + ".jpg"));
-			}
-		catch (Exception e) {
-			reportStep(e.getMessage(), "fail");
-		}
-		return number;
-	}
+	/*
+	 * @Override public long takeSnap() { long number = (long)
+	 * Math.floor(Math.random() * 90000L) + 10000L; //save the snap name in long
+	 * value from 10000000L to 909999999L try {
+	 * FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new
+	 * File("./"+Reporter.foldername+"/Photos/" + number + ".jpg")); } catch
+	 * (Exception e) { reportStep(e.getMessage(), "fail"); } return number; }
+	 */
 
 	@Override
 	public void switchtowindow(int index) {
@@ -77,14 +72,14 @@ public class SeleniumBase extends Reporter implements Element,Browser {
 			Set<String> windows = getDriver().getWindowHandles();
 			List<String> handles = new ArrayList<String>(windows);
 			getDriver().switchTo().window(handles.get(index));
-			reportStep("The window with index "+index+" is switched successfully","info", false); reportStep(getDriver().getTitle(), "info");
+			reportStep("The window with index "+index+" is switched successfully","info", false,name); reportStep(getDriver().getTitle(), "info", name);
 			 
 		}
 		catch(NoSuchWindowException e) {
-			reportStep("The window with index "+index+" is not availabe\n"+e.getMessage(), "fail", false);
+			reportStep("The window with index "+index+" is not availabe\n"+e.getMessage(), "fail", false,name);
 		}
 		catch(Exception e) {
-			reportStep("The window with index "+index+" is not availabe\n"+e.getMessage(), "fail", false);
+			reportStep("The window with index "+index+" is not availabe\n"+e.getMessage(), "fail", false,name);
 		}
 		
 	}
@@ -99,11 +94,11 @@ public class SeleniumBase extends Reporter implements Element,Browser {
 					break;
 				}
 			}
-			reportStep("The window with title "+title+" is switched successfully", "info");
+			reportStep("The window with title "+title+" is switched successfully", "info",name);
 			return true;
 		}
 		catch(NoSuchWindowException e) {
-			reportStep("The window with index "+title+" is not availabe\n"+e.getMessage(), "fail", false);
+			reportStep("The window with index "+title+" is not availabe\n"+e.getMessage(), "fail", false,name);
 		}
 		return false;
 	}

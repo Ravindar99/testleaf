@@ -23,9 +23,9 @@ public abstract class Reporter extends DriverBase {
 
 	private static ExtentReports extent;
 	private static final ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
-	public String testcaseName, testcaseDes, AuthorName, CategoryName;
+	public String testcaseName, testcaseDes, AuthorName, CategoryName, name;
 
-	private String pattern = "dd-MMM-yyyy HH-mm-ss";
+	private String pattern = "dd-MMM-yyyy HH-mm-ss"; 
 	private String filename = "results.html";
 	public static String foldername = "";
 
@@ -35,7 +35,7 @@ public abstract class Reporter extends DriverBase {
 		foldername = "Reports/" + date;
 		File folder = new File("./" + foldername);
 		if (!folder.exists()) {
-			folder.mkdirs(); // can't figure out why this condition exists
+			folder.mkdirs(); // creates new folder if the folder does not exists
 		}
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter("./" + foldername + "/" + filename);
 		extent = new ExtentReports();
@@ -53,9 +53,11 @@ public abstract class Reporter extends DriverBase {
 		 test.get().assignAuthor(AuthorName);
 		 test.get().assignCategory(CategoryName);
 	 }
-	public abstract long takeSnap(); // already declared variable
 
-	public void reportStep(String desc, String status, boolean bSnap) {
+		/*
+		 * public abstract long takeSnap(); // already declared variable
+		 */
+	public void reportStep(String desc, String status, boolean bSnap,String name) {
 		 
 
 			// Start reporting the step and snapshot
@@ -64,12 +66,12 @@ public abstract class Reporter extends DriverBase {
 			if (bSnap && !(status.equalsIgnoreCase("INFO") || status.equalsIgnoreCase("skipped"))) 
 				// condition to take screenshot if status is neither info nor skipped
 			{
-				long snapNumber = 10000L; // to save snap name in long integer value
-				snapNumber = takeSnap();// above abstract long variable
-				try {
-					img = MediaEntityBuilder
-							.createScreenCaptureFromPath("./../../" + foldername + "/Photos/" + snapNumber + ".jpg")
-							.build();
+				/*
+				 * long snapNumber = 10000L; // to save snap name in long integer value
+				 * snapNumber = takeSnap();// above abstract long variable
+				 */	try {
+					FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./"+Reporter.foldername+"/Photos/" + name + ".jpg"));
+					img = MediaEntityBuilder.createScreenCaptureFromPath(new File("./"+Reporter.foldername+"/Photos/" + name + ".jpg").getAbsolutePath()).build();
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
@@ -87,7 +89,7 @@ public abstract class Reporter extends DriverBase {
 		}
 	
 	
-	public void reportStep(String desc, String status) {
-		reportStep(desc, status, true);
+	public void reportStep(String desc, String status,String name) {
+		reportStep(desc, status, true,name);
 	}
 }

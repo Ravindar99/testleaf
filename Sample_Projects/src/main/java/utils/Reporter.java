@@ -7,7 +7,6 @@ import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -21,7 +20,7 @@ public class Reporter extends DriverBase{
 	
 	public static ExtentReports extent;
 	public static ExtentTest test;
-	public String tetcasename,tesdesc,author,category;
+	public String testcasename,tesdesc,author,category;
 	public static String foldername = "";
 	
 	private String filename = "results.html";
@@ -33,7 +32,12 @@ public class Reporter extends DriverBase{
 		//SimpleDateFormat creates date in specified pattern
 		//format converts num date to string date type
 		foldername = "Reports/"+date;
-		File folder = new File("./"+foldername); //code to create new file
+		File folder = new File("./"+foldername);
+		//code to create new file
+		if (!folder.exists()) {
+            folder.mkdirs();
+        } //ensure directory exists
+		System.out.println(folder.getAbsolutePath());
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter("./"+foldername+"/"+filename);
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
@@ -44,7 +48,7 @@ public class Reporter extends DriverBase{
 	}
 	
 	public void SetDetails() {
-		test = extent.createTest(tetcasename, tesdesc);
+		test = extent.createTest(testcasename, tesdesc);
 		test.assignAuthor(author);
 		test.assignCategory(category);
 	}
@@ -62,8 +66,13 @@ public class Reporter extends DriverBase{
 		if(bsnap && !(status.equalsIgnoreCase("skip")||status.equalsIgnoreCase("info"))) { //condition ok 
 			// we can now build ss
 			try {
+				// Ensure Image folder exists
+                File imageFolder = new File("./" + foldername + "/Image");
+                if (!imageFolder.exists()) {
+                    imageFolder.mkdirs();
+                }
 				FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./"+foldername+"/Image/"+photo+".jpg"));
-				img = MediaEntityBuilder.createScreenCaptureFromPath("./../../"+foldername+"/Image/"+photo+".jpg").build(); 
+				img = MediaEntityBuilder.createScreenCaptureFromPath(new File(foldername + "/Image/" + photo + ".jpg").getAbsolutePath()).build();
 				//need image number to build screenshot
 			} catch (IOException e) {
 				System.out.println("Failed to take ScreenShot due to "+e.getMessage());

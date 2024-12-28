@@ -61,7 +61,6 @@ INDEX VERSION 1.134+C:\Users\rahul\testleaf\.metadata\.plugins\org.eclipse.jdt.c
 894739043.index
 4035790498.index
 1793237394.index
-107573622.index
 2718099933.index
 1709808135.index
 810875127.index

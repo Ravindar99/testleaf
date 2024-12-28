@@ -9,6 +9,7 @@
           <include name="precondition"/>
           <include name="setData"/>
           <include name="StartReport"/>
+          <include name="SetReportDetails"/>
           <include name="EndReport"/>
           <include name="SearchAndClick"/>
         </methods>
