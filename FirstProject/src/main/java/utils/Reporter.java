@@ -22,20 +22,27 @@ import base.DriverBase;
 public abstract class Reporter extends DriverBase {
 
 	private static ExtentReports extent;
+	private static final ThreadLocal<ExtentTest> MainTest = new ThreadLocal<ExtentTest>();
 	private static final ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
+	private static final ThreadLocal<String> testName = new ThreadLocal<String>();
+	
 	public String testcaseName, testcaseDes, AuthorName, CategoryName, name;
 
-	private String pattern = "dd-MMM-yyyy HH-mm-ss"; 
+	private String pattern = "dd-MMM-yyyy HH-mm-ss";
 	private String filename = "results.html";
 	public static String foldername = "";
 
 	@BeforeSuite(alwaysRun = true)
 	public void StartReport() {
 		String date = new SimpleDateFormat(pattern).format(new Date());
-		foldername = "Reports/" + date;
+		foldername = "./Reports/" + date;
 		File folder = new File("./" + foldername);
 		if (!folder.exists()) {
 			folder.mkdirs(); // creates new folder if the folder does not exists
+		}
+		File photosDir = new File("./" + foldername + "/Photos");
+		if (!photosDir.exists()) {
+		    photosDir.mkdirs();
 		}
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter("./" + foldername + "/" + filename);
 		extent = new ExtentReports();
@@ -48,15 +55,15 @@ public abstract class Reporter extends DriverBase {
 	}
 
 	 @BeforeClass(alwaysRun = true) 
-	 public void SetReportDetails() {
-		 test.set(extent.createTest(testcaseName, testcaseDes)); // Use test.set()
-		 test.get().assignAuthor(AuthorName);
-		 test.get().assignCategory(CategoryName);
+	 public synchronized void SetReportDetails() {
+		 ExtentTest Main = extent.createTest(testcaseName, testcaseDes); // Use test.set()
+		 Main.assignAuthor(AuthorName);
+		 Main.assignCategory(CategoryName);
+		 MainTest.set(Main);
+		 testName.set(testcaseName);
+		 test.set(MainTest.get().createNode(getTestName()));
 	 }
-
-		/*
-		 * public abstract long takeSnap(); // already declared variable
-		 */
+	 
 	public void reportStep(String desc, String status, boolean bSnap,String name) {
 		 
 
@@ -66,10 +73,7 @@ public abstract class Reporter extends DriverBase {
 			if (bSnap && !(status.equalsIgnoreCase("INFO") || status.equalsIgnoreCase("skipped"))) 
 				// condition to take screenshot if status is neither info nor skipped
 			{
-				/*
-				 * long snapNumber = 10000L; // to save snap name in long integer value
-				 * snapNumber = takeSnap();// above abstract long variable
-				 */	try {
+				try {
 					FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./"+Reporter.foldername+"/Photos/" + name + ".jpg"));
 					img = MediaEntityBuilder.createScreenCaptureFromPath(new File("./"+Reporter.foldername+"/Photos/" + name + ".jpg").getAbsolutePath()).build();
 				} catch (IOException e) {
@@ -91,5 +95,9 @@ public abstract class Reporter extends DriverBase {
 	
 	public void reportStep(String desc, String status,String name) {
 		reportStep(desc, status, true,name);
+	}
+	
+	public String getTestName() {
+		return testName.get();
 	}
 }
