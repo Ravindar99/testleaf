@@ -25,9 +25,12 @@ public abstract class Reporter extends DriverBase {
 	private static final ThreadLocal<ExtentTest> MainTest = new ThreadLocal<ExtentTest>();
 	private static final ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
 	private static final ThreadLocal<String> testName = new ThreadLocal<String>();
+	private static final ThreadLocal<String> firstname = new ThreadLocal<String>();
 	
 	public String testcaseName, testcaseDes, AuthorName, CategoryName, name;
-
+	
+	public String Photoname;
+	
 	private String pattern = "dd-MMM-yyyy HH-mm-ss";
 	private String filename = "results.html";
 	public static String foldername = "";
@@ -62,11 +65,13 @@ public abstract class Reporter extends DriverBase {
 		 MainTest.set(Main);
 		 testName.set(testcaseName);
 		 test.set(MainTest.get().createNode(getTestName()));
+		 firstname.set(testcaseName);
 	 }
 	 
 	public void reportStep(String desc, String status, boolean bSnap,String name) {
-		 
-
+		
+		String value = firstname.get();
+		Photoname = value +"-"+ name;
 			// Start reporting the step and snapshot
 			MediaEntityModelProvider img = null; // helps in creating screenshot first null value to not take a
 													// screenshot
@@ -74,8 +79,8 @@ public abstract class Reporter extends DriverBase {
 				// condition to take screenshot if status is neither info nor skipped
 			{
 				try {
-					FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./"+Reporter.foldername+"/Photos/" + name + ".jpg"));
-					img = MediaEntityBuilder.createScreenCaptureFromPath(new File("./"+Reporter.foldername+"/Photos/" + name + ".jpg").getAbsolutePath()).build();
+					 FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./" + Reporter.foldername + "/Photos/" + Photoname + ".jpg"));
+		                img = MediaEntityBuilder.createScreenCaptureFromPath(new File("./" + Reporter.foldername + "/Photos/" + Photoname + ".jpg").getAbsolutePath()).build();
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
@@ -97,6 +102,7 @@ public abstract class Reporter extends DriverBase {
 		reportStep(desc, status, true,name);
 	}
 	
+	 
 	public String getTestName() {
 		return testName.get();
 	}
