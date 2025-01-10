@@ -4,7 +4,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class DriverBase{
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+public class DriverBase extends AbstractTestNGCucumberTests{
 
 	private static final ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<RemoteWebDriver>();
 	

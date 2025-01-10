@@ -57,14 +57,6 @@ public class SeleniumBase extends Reporter implements Element,Browser {
 		getDriver().close();
 	}
 
-	/*
-	 * @Override public long takeSnap() { long number = (long)
-	 * Math.floor(Math.random() * 90000L) + 10000L; //save the snap name in long
-	 * value from 10000000L to 909999999L try {
-	 * FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new
-	 * File("./"+Reporter.foldername+"/Photos/" + number + ".jpg")); } catch
-	 * (Exception e) { reportStep(e.getMessage(), "fail"); } return number; }
-	 */
 
 	@Override
 	public void switchtowindow(int index) {

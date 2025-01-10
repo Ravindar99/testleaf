@@ -22,7 +22,6 @@
     <fullyQualifiedTypeName name="org.testng.annotations.AfterSuite"/>
     <fullyQualifiedTypeName name="week8.day2.LearnEncapsulation"/>
     <fullyQualifiedTypeName name="base.ProjectSpecificMethod"/>
-    <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
     <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
     <fullyQualifiedTypeName name="utils.DataInt"/>
     <fullyQualifiedTypeName name="design.Browser"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.NoSuchWindowException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
 </qualifiedTypeNameHistroy>

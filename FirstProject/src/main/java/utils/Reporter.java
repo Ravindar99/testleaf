@@ -71,7 +71,7 @@ public abstract class Reporter extends DriverBase {
 	public void reportStep(String desc, String status, boolean bSnap,String name) {
 		
 		String value = firstname.get();
-		Photoname = value +"-"+ name;
+		Photoname = value +"_"+ name;
 			// Start reporting the step and snapshot
 			MediaEntityModelProvider img = null; // helps in creating screenshot first null value to not take a
 													// screenshot

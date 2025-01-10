@@ -1,7 +1,5 @@
 package design;
 
-import java.util.List;
-
 import org.openqa.selenium.WebElement;
 
 public interface Browser {
@@ -23,4 +21,5 @@ public interface Browser {
 	
 	public boolean switchtowindow(String title);
 	//switch window using title
+	
 }
