@@ -14,8 +14,10 @@ public static String[][] IntegrateExcell() throws IOException {
 		//get sheet
 		XSSFSheet sheet = workbook.getSheetAt(0);
 		//get values
+		
 		/*
-		 * String stringCellValue = sheet.getRow(1).getCell(1).getStringCellValue();
+		 * System.out.println("------------------------------------------"); String
+		 * stringCellValue = sheet.getRow(1).getCell(1).getStringCellValue();
 		 * System.out.println(stringCellValue); String stringCellValue1 =
 		 * sheet.getRow(1).getCell(2).getStringCellValue();
 		 * System.out.println(stringCellValue1); String stringCellValue2 =
@@ -27,7 +29,9 @@ public static String[][] IntegrateExcell() throws IOException {
 		 * System.out.println(stringCellValue4); String stringCellValue5 =
 		 * sheet.getRow(3).getCell(3).getStringCellValue();
 		 * System.out.println(stringCellValue5);
+		 * System.out.println("------------------------------------------");
 		 */
+		 
 		//get col and row
 		int rowcount = sheet.getLastRowNum();
 		System.out.println(rowcount);

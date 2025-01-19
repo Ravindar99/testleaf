@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Ignore"/>
     <fullyQualifiedTypeName name="com.beust.jcommander.Parameters"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
-    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
     <fullyQualifiedTypeName name="stepDefinition.ProjectSPecificMethod"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.CucumberOptions"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
@@ -28,9 +23,7 @@
     <fullyQualifiedTypeName name="design.Element"/>
     <fullyQualifiedTypeName name="base.ProjectSpecificMethods"/>
     <fullyQualifiedTypeName name="base.SeleniumBase"/>
-    <fullyQualifiedTypeName name="design.Locators"/>
     <fullyQualifiedTypeName name="TestNgBase.ProjectSpecificMethods"/>
-    <fullyQualifiedTypeName name="base.DriverBase"/>
     <fullyQualifiedTypeName name="utils.Reporter"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.ExtentHtmlReporter"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentReports"/>
@@ -50,8 +43,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.NoSuchFrameException"/>
     <fullyQualifiedTypeName name="io.github.sukgu.support.FindElementBy"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
@@ -60,4 +51,13 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.NoSuchWindowException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+    <fullyQualifiedTypeName name="design.Locators"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="trial.LastString"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
+    <fullyQualifiedTypeName name="base.DriverBase"/>
+    <fullyQualifiedTypeName name="utils.DataLibrary"/>
 </qualifiedTypeNameHistroy>

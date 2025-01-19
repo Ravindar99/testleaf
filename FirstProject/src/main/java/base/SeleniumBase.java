@@ -64,7 +64,8 @@ public class SeleniumBase extends Reporter implements Element,Browser {
 			Set<String> windows = getDriver().getWindowHandles();
 			List<String> handles = new ArrayList<String>(windows);
 			getDriver().switchTo().window(handles.get(index));
-			reportStep("The window with index "+index+" is switched successfully","info", false,name); reportStep(getDriver().getTitle(), "info", name);
+			reportStep("The window with index "+index+" is switched successfully","info", false,name); 
+			reportStep(getDriver().getTitle(), "info", name);
 			 
 		}
 		catch(NoSuchWindowException e) {

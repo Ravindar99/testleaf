@@ -1,9 +1,13 @@
 package TestNgBase;
 
+import java.io.IOException;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 
 import base.SeleniumBase;
+import utils.DataLibrary;
 
 public class ProjectSpecificMethods extends SeleniumBase{
 
@@ -16,5 +20,10 @@ public class ProjectSpecificMethods extends SeleniumBase{
 	@AfterMethod
 	public void postcondition() {
 		quit();
+	}
+	
+	@DataProvider(name = "fetchData")
+	public Object[][] fetchdata() throws IOException{
+		return DataLibrary.getData(excelfileName);
 	}
 }

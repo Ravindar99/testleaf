@@ -14,7 +14,7 @@ public class TC_001_Search2 extends ProjectSpecificMethods{
 		SearchPage sp = new SearchPage();
 		sp.SearchText("Phone");
 		sp.ClickSearch();
-		sp.clickOnTheFirstProduct();
+		sp.clickOnTheFirstProduct().buynow();
 	}
 	@BeforeTest
 	public void setData() {

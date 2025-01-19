@@ -1,7 +1,7 @@
 package week3.assingment;
 
 public class LengthOfLastWord {
-	public static int length(String last) {
+	public int length(String last) {
 		//using trim function to remove spaces in the border of string not in between
 		String l = last.trim();
 		int count =0;
@@ -10,7 +10,7 @@ public class LengthOfLastWord {
 			//i should be greater than 0 
 			if (l.charAt(i)==' ')
 				//if there is a space in the char the if loop is terminated
-			{
+			{ 
 				break;
 			}
 			else {

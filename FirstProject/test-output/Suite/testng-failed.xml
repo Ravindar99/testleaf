@@ -6,22 +6,26 @@
       <class name="test.TC_001_Search2">
         <methods>
           <include name="postcondition"/>
+          <include name="setUpClass"/>
           <include name="setData"/>
           <include name="precondition"/>
           <include name="StartReport"/>
           <include name="SetReportDetails"/>
           <include name="EndReport"/>
+          <include name="tearDownClass"/>
           <include name="SearchAndClick"/>
         </methods>
       </class> <!-- test.TC_001_Search2 -->
       <class name="test.TC_001_Search">
         <methods>
           <include name="postcondition"/>
+          <include name="setUpClass"/>
           <include name="precondition"/>
           <include name="setData"/>
           <include name="StartReport"/>
           <include name="SetReportDetails"/>
           <include name="EndReport"/>
+          <include name="tearDownClass"/>
           <include name="SearchAndClick"/>
         </methods>
       </class> <!-- test.TC_001_Search -->

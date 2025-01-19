@@ -9,12 +9,10 @@ import TestNgBase.ProjectSpecificMethods;
 
 public class TC_001_Search extends ProjectSpecificMethods{
 
-	@Test
-	public void SearchAndClick() {
+	@Test(dataProvider = "fetchData")
+	public void SearchAndClick(String text) {
 		SearchPage sp = new SearchPage();
-		sp.SearchText("Laptop");
-		sp.ClickSearch();
-		sp.clickOnTheFirstProduct();
+		sp.SearchText(text).ClickSearch().clickOnTheFirstProduct().buynow();
 	}
 	@BeforeTest
 	public void setData() {
@@ -22,5 +20,6 @@ public class TC_001_Search extends ProjectSpecificMethods{
 		testcaseDes="Laptop Search";
 		AuthorName="Ravi";
 		CategoryName="Regression";
+		excelfileName="Products";
 	}
 }

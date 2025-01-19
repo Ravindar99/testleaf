@@ -27,7 +27,7 @@ public abstract class Reporter extends DriverBase {
 	private static final ThreadLocal<String> testName = new ThreadLocal<String>();
 	private static final ThreadLocal<String> firstname = new ThreadLocal<String>();
 	
-	public String testcaseName, testcaseDes, AuthorName, CategoryName, name;
+	public String testcaseName, testcaseDes, AuthorName, CategoryName, name, excelfileName;
 	
 	public String Photoname;
 	

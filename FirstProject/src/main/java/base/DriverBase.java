@@ -12,7 +12,6 @@ public class DriverBase extends AbstractTestNGCucumberTests{
 	
 	public void setDriver() {
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--incognito");
 		options.addArguments("--disable-notifications");
 		options.addArguments("--start-maximized");
 		driver.set(new ChromeDriver(options));

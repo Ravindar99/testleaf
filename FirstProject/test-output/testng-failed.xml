@@ -6,12 +6,14 @@
       <class name="test.TC_001_Search">
         <methods>
           <include name="postcondition"/>
+          <include name="setUpClass"/>
           <include name="precondition"/>
           <include name="setData"/>
           <include name="StartReport"/>
           <include name="SetReportDetails"/>
           <include name="EndReport"/>
-          <include name="SearchAndClick"/>
+          <include name="tearDownClass"/>
+          <include name="SearchAndClick" invocation-numbers="2 4 5 6 7"/>
         </methods>
       </class> <!-- test.TC_001_Search -->
     </classes>

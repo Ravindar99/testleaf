@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="5">
-  <test thread-count="5" name="Test(failed)" verbose="5">
-    <parameter name="password" value="crmsfa"/>
-    <parameter name="url" value="http://leaftaps.com/opentaps/"/>
-    <parameter name="username" value="DemoSalesManager"/>
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps/"/>
+  <parameter name="username" value="DemoSalesManager"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="week5.day2.CreateLead">
+      <class name="week6.day1.CreateLead">
         <methods>
-          <include name="precondition"/>
-          <include name="postcondition"/>
           <include name="RunCreateLead"/>
-        </methods>
-      </class> <!-- week5.day2.CreateLead -->
-      <class name="week5.day2.DuplicateLead">
-        <methods>
           <include name="precondition"/>
           <include name="postcondition"/>
-          <include name="RunDuplicateLead"/>
         </methods>
-      </class> <!-- week5.day2.DuplicateLead -->
+      </class> <!-- week6.day1.CreateLead -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
