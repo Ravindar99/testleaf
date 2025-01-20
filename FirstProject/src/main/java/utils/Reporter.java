@@ -25,9 +25,12 @@ public abstract class Reporter extends DriverBase {
 	private static final ThreadLocal<ExtentTest> MainTest = new ThreadLocal<ExtentTest>();
 	private static final ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
 	private static final ThreadLocal<String> testName = new ThreadLocal<String>();
-	private static final ThreadLocal<String> firstname = new ThreadLocal<String>();
+	/*
+	 * private static final ThreadLocal<String> firstname = new
+	 * ThreadLocal<String>();
+	 */
 	
-	public String testcaseName, testcaseDes, AuthorName, CategoryName, name, excelfileName;
+	public String testcaseName, testcaseDes, AuthorName, CategoryName, excelfileName;
 	
 	public String Photoname;
 	
@@ -65,13 +68,14 @@ public abstract class Reporter extends DriverBase {
 		 MainTest.set(Main);
 		 testName.set(testcaseName);
 		 test.set(MainTest.get().createNode(getTestName()));
-		 firstname.set(testcaseName);
+			/* firstname.set(testcaseName); */
 	 }
 	 
-	public void reportStep(String desc, String status, boolean bSnap,String name) {
+	public void reportStep(String desc, String status, boolean bSnap) {
 		
-		String value = firstname.get();
-		Photoname = value +"_"+ name;
+		/*
+		 * String value = firstname.get(); Photoname = value +"_"+ name;
+		 */
 			// Start reporting the step and snapshot
 			MediaEntityModelProvider img = null; // helps in creating screenshot first null value to not take a
 													// screenshot
@@ -79,8 +83,9 @@ public abstract class Reporter extends DriverBase {
 				// condition to take screenshot if status is neither info nor skipped
 			{
 				try {
-					 FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./" + Reporter.foldername + "/Photos/" + Photoname + ".jpg"));
-		                img = MediaEntityBuilder.createScreenCaptureFromPath(new File("./" + Reporter.foldername + "/Photos/" + Photoname + ".jpg").getAbsolutePath()).build();
+					long number = (long) Math.floor(Math.random() * 900000000L) + 10000000L;
+					 FileUtils.copyFile(getDriver().getScreenshotAs(OutputType.FILE), new File("./" + Reporter.foldername + "/Photos/" + number + ".jpg"));
+		                img = MediaEntityBuilder.createScreenCaptureFromPath(new File("./" + Reporter.foldername + "/Photos/" + number + ".jpg").getAbsolutePath()).build();
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
@@ -98,8 +103,8 @@ public abstract class Reporter extends DriverBase {
 		}
 	
 	
-	public void reportStep(String desc, String status,String name) {
-		reportStep(desc, status, true,name);
+	public void reportStep(String desc, String status) {
+		reportStep(desc, status, true);
 	}
 	
 	 

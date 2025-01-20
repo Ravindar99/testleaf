@@ -13,7 +13,7 @@
           <include name="SetReportDetails"/>
           <include name="EndReport"/>
           <include name="tearDownClass"/>
-          <include name="SearchAndClick" invocation-numbers="2 4 5 6 7"/>
+          <include name="SearchAndClick" invocation-numbers="2 3 4 7 8 9"/>
         </methods>
       </class> <!-- test.TC_001_Search -->
     </classes>

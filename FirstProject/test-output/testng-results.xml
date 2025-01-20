@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="5" failed="5" skipped="0">
+<testng-results ignored="0" total="10" passed="4" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-19T21:37:38 IST" name="Default suite" finished-at="2025-01-19T21:38:50 IST" duration-ms="72182">
+  <suite started-at="2025-01-20T22:34:11 IST" name="Default suite" finished-at="2025-01-20T22:35:28 IST" duration-ms="76780">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TC_001_Search@402c4085]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TC_001_Search@57a78e3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-01-19T21:37:38 IST" name="Default test" finished-at="2025-01-19T21:38:50 IST" duration-ms="72182">
+    <test started-at="2025-01-20T22:34:11 IST" name="Default test" finished-at="2025-01-20T22:35:28 IST" duration-ms="76780">
       <class name="test.TC_001_Search">
-        <test-method is-config="true" signature="StartReport()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:37:38 IST" name="StartReport" finished-at="2025-01-19T21:37:38 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:11 IST" name="StartReport" finished-at="2025-01-20T22:34:11 IST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartReport -->
-        <test-method is-config="true" signature="setData()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:37:38 IST" name="setData" finished-at="2025-01-19T21:37:38 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setData()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:11 IST" name="setData" finished-at="2025-01-20T22:34:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:37:38 IST" name="setUpClass" finished-at="2025-01-19T21:37:38 IST" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:11 IST" name="setUpClass" finished-at="2025-01-20T22:34:12 IST" duration-ms="149" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7fd751de]]>
+                <![CDATA[org.testng.TestRunner@4243341e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="SetReportDetails()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:37:38 IST" name="SetReportDetails" finished-at="2025-01-19T21:37:38 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="SetReportDetails()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:12 IST" name="SetReportDetails" finished-at="2025-01-20T22:34:12 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetReportDetails -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:37:39 IST" name="precondition" finished-at="2025-01-19T21:37:42 IST" duration-ms="2897" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:13 IST" name="precondition" finished-at="2025-01-20T22:34:16 IST" duration-ms="3530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:37:42 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:37:50 IST" duration-ms="8191" status="PASS">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:16 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:34:27 IST" duration-ms="11334" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,15 +48,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:37:50 IST" name="postcondition" finished-at="2025-01-19T21:37:50 IST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:27 IST" name="postcondition" finished-at="2025-01-20T22:34:28 IST" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:37:50 IST" name="precondition" finished-at="2025-01-19T21:37:52 IST" duration-ms="2010" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:28 IST" name="precondition" finished-at="2025-01-20T22:34:30 IST" duration-ms="2422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:37:52 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:38:01 IST" duration-ms="8687" status="PASS">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:30 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:34:42 IST" duration-ms="11705" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:01 IST" name="postcondition" finished-at="2025-01-19T21:38:01 IST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:42 IST" name="postcondition" finished-at="2025-01-20T22:34:42 IST" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:01 IST" name="precondition" finished-at="2025-01-19T21:38:03 IST" duration-ms="1752" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:42 IST" name="precondition" finished-at="2025-01-20T22:34:44 IST" duration-ms="2096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:03 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:38:03 IST" duration-ms="190" status="FAIL">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:44 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:34:45 IST" duration-ms="157" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -91,9 +91,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [16406454bb3e538e368b486fc3907326, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56839}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56839/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 16406454bb3e538e368b486fc3907326]]>
+Command: [7266d0e2ce09199c04be0b20231306ba, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51437}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51437/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7266d0e2ce09199c04be0b20231306ba]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
@@ -102,9 +102,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [16406454bb3e538e368b486fc3907326, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56839}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56839/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 16406454bb3e538e368b486fc3907326
+Command: [7266d0e2ce09199c04be0b20231306ba, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51437}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51437/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7266d0e2ce09199c04be0b20231306ba
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -159,15 +159,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:03 IST" name="postcondition" finished-at="2025-01-19T21:38:03 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:45 IST" name="postcondition" finished-at="2025-01-20T22:34:45 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:03 IST" name="precondition" finished-at="2025-01-19T21:38:05 IST" duration-ms="2043" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:45 IST" name="precondition" finished-at="2025-01-20T22:34:47 IST" duration-ms="1955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:05 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:38:11 IST" duration-ms="5900" status="PASS">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:47 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:34:47 IST" duration-ms="154" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -175,18 +175,91 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae9ddafa871d3b09973d889b85b98656, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51458/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae9ddafa871d3b09973d889b85b98656]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae9ddafa871d3b09973d889b85b98656, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51458/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae9ddafa871d3b09973d889b85b98656
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at base.SeleniumBase.locateElement(SeleniumBase.java:48)
+at base.SeleniumBase.click(SeleniumBase.java:29)
+at AmazonPage.SearchPage.ClickSearch(SearchPage.java:24)
+at test.TC_001_Search.SearchAndClick(TC_001_Search.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:11 IST" name="postcondition" finished-at="2025-01-19T21:38:11 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:47 IST" name="postcondition" finished-at="2025-01-20T22:34:47 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:11 IST" name="precondition" finished-at="2025-01-19T21:38:13 IST" duration-ms="1789" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:47 IST" name="precondition" finished-at="2025-01-20T22:34:49 IST" duration-ms="1920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:13 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:38:13 IST" duration-ms="130" status="FAIL">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:49 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:34:49 IST" duration-ms="140" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -202,9 +275,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d559f81c570238ab332080f0646b6fe6, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56905/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d559f81c570238ab332080f0646b6fe6]]>
+Command: [7371721401cd3645fc6b09be7b50ae10, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51479/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7371721401cd3645fc6b09be7b50ae10]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
@@ -213,9 +286,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d559f81c570238ab332080f0646b6fe6, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56905/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d559f81c570238ab332080f0646b6fe6
+Command: [7371721401cd3645fc6b09be7b50ae10, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51479/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7371721401cd3645fc6b09be7b50ae10
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -270,15 +343,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:13 IST" name="postcondition" finished-at="2025-01-19T21:38:13 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:49 IST" name="postcondition" finished-at="2025-01-20T22:34:49 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:13 IST" name="precondition" finished-at="2025-01-19T21:38:15 IST" duration-ms="1690" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:49 IST" name="precondition" finished-at="2025-01-20T22:34:51 IST" duration-ms="2021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:15 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:38:15 IST" duration-ms="148" status="FAIL">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:34:51 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:35:01 IST" duration-ms="10248" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,91 +359,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
-  (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82837adf886cbcc2a87c95e140374fe5, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56924}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56924/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82837adf886cbcc2a87c95e140374fe5]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
-  (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82837adf886cbcc2a87c95e140374fe5, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56924}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56924/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82837adf886cbcc2a87c95e140374fe5
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at base.SeleniumBase.locateElement(SeleniumBase.java:48)
-at base.SeleniumBase.click(SeleniumBase.java:29)
-at AmazonPage.SearchPage.ClickSearch(SearchPage.java:24)
-at test.TC_001_Search.SearchAndClick(TC_001_Search.java:15)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:15 IST" name="postcondition" finished-at="2025-01-19T21:38:15 IST" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:01 IST" name="postcondition" finished-at="2025-01-20T22:35:02 IST" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:15 IST" name="precondition" finished-at="2025-01-19T21:38:17 IST" duration-ms="1737" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:02 IST" name="precondition" finished-at="2025-01-20T22:35:04 IST" duration-ms="1806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:17 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:38:17 IST" duration-ms="132" status="FAIL">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:04 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:35:10 IST" duration-ms="6649" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -378,91 +378,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
-  (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [97543940fdbd8748375069f9dabe4c1b, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56943}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56943/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 97543940fdbd8748375069f9dabe4c1b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
-  (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [97543940fdbd8748375069f9dabe4c1b, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56943}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56943/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 97543940fdbd8748375069f9dabe4c1b
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at base.SeleniumBase.locateElement(SeleniumBase.java:48)
-at base.SeleniumBase.click(SeleniumBase.java:29)
-at AmazonPage.SearchPage.ClickSearch(SearchPage.java:24)
-at test.TC_001_Search.SearchAndClick(TC_001_Search.java:15)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:17 IST" name="postcondition" finished-at="2025-01-19T21:38:17 IST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:10 IST" name="postcondition" finished-at="2025-01-20T22:35:11 IST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:17 IST" name="precondition" finished-at="2025-01-19T21:38:19 IST" duration-ms="2010" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:11 IST" name="precondition" finished-at="2025-01-20T22:35:14 IST" duration-ms="3045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:19 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:38:21 IST" duration-ms="2358" status="FAIL">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:14 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:35:22 IST" duration-ms="8895" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -478,9 +405,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3dc9a747beb6034fd547d1a4fc217714, findElement {using=xpath, value=(//a[@class='a-link-normal s-line-clamp-2 s-link-style a-text-normal'])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56963/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3dc9a747beb6034fd547d1a4fc217714]]>
+Command: [44d76517dd67636268ab60546bbbe2e9, findElement {using=xpath, value=(//a[@class='a-link-normal s-line-clamp-2 s-link-style a-text-normal'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51650/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44d76517dd67636268ab60546bbbe2e9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@class='a-link-normal s-line-clamp-2 s-link-style a-text-normal'])[1]"}
@@ -489,9 +416,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3dc9a747beb6034fd547d1a4fc217714, findElement {using=xpath, value=(//a[@class='a-link-normal s-line-clamp-2 s-link-style a-text-normal'])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56963/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3dc9a747beb6034fd547d1a4fc217714
+Command: [44d76517dd67636268ab60546bbbe2e9, findElement {using=xpath, value=(//a[@class='a-link-normal s-line-clamp-2 s-link-style a-text-normal'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51650/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44d76517dd67636268ab60546bbbe2e9
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -546,15 +473,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:21 IST" name="postcondition" finished-at="2025-01-19T21:38:22 IST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:22 IST" name="postcondition" finished-at="2025-01-20T22:35:23 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:22 IST" name="precondition" finished-at="2025-01-19T21:38:24 IST" duration-ms="1932" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:23 IST" name="precondition" finished-at="2025-01-20T22:35:25 IST" duration-ms="1799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:24 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:38:39 IST" duration-ms="15807" status="PASS">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:25 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:35:26 IST" duration-ms="1083" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -562,18 +489,91 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a23c701f3fefaa1b9999049390bfe04, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a23c701f3fefaa1b9999049390bfe04]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a23c701f3fefaa1b9999049390bfe04, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a23c701f3fefaa1b9999049390bfe04
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at base.SeleniumBase.locateElement(SeleniumBase.java:48)
+at base.SeleniumBase.click(SeleniumBase.java:29)
+at AmazonPage.SearchPage.ClickSearch(SearchPage.java:24)
+at test.TC_001_Search.SearchAndClick(TC_001_Search.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:39 IST" name="postcondition" finished-at="2025-01-19T21:38:40 IST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:26 IST" name="postcondition" finished-at="2025-01-20T22:35:26 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:40 IST" name="precondition" finished-at="2025-01-19T21:38:42 IST" duration-ms="2047" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:26 IST" name="precondition" finished-at="2025-01-20T22:35:27 IST" duration-ms="1321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:42 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-19T21:38:50 IST" duration-ms="8476" status="PASS">
+        <test-method signature="SearchAndClick(java.lang.String)[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:27 IST" name="SearchAndClick" data-provider="fetchData" finished-at="2025-01-20T22:35:28 IST" duration-ms="988" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -581,18 +581,91 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ff50304be0ad433e1d863ca000b1424, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51759}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51759/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ff50304be0ad433e1d863ca000b1424]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='nav-search-submit-button']"}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ff50304be0ad433e1d863ca000b1424, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51759}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51759/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ff50304be0ad433e1d863ca000b1424
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at base.SeleniumBase.locateElement(SeleniumBase.java:48)
+at base.SeleniumBase.click(SeleniumBase.java:29)
+at AmazonPage.SearchPage.ClickSearch(SearchPage.java:24)
+at test.TC_001_Search.SearchAndClick(TC_001_Search.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:50 IST" name="postcondition" finished-at="2025-01-19T21:38:50 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:28 IST" name="postcondition" finished-at="2025-01-20T22:35:28 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:50 IST" name="tearDownClass" finished-at="2025-01-19T21:38:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:28 IST" name="tearDownClass" finished-at="2025-01-20T22:35:28 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="EndReport()[pri:0, instance:test.TC_001_Search@402c4085]" started-at="2025-01-19T21:38:50 IST" name="EndReport" finished-at="2025-01-19T21:38:51 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:test.TC_001_Search@57a78e3]" started-at="2025-01-20T22:35:28 IST" name="EndReport" finished-at="2025-01-20T22:35:28 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndReport -->

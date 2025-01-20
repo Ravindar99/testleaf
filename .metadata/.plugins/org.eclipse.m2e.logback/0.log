@@ -9292,3 +9292,61 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.po
 2025-01-19 21:37:37,753 [Worker-8: Launching TC_001_Search] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier null to /LearnSelinium/target/classes
 2025-01-19 21:37:37,829 [Worker-8: Launching TC_001_Search] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier null to /LearnSelinium/target/classes
 2025-01-19 21:37:37,892 [Worker-8: Launching TC_001_Search] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier null to /LearnSelinium/target/classes
+2025-01-19 21:39:19,665 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-19 21:39:19,666 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-19 21:39:19,667 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-19 21:39:19,668 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 07:34:36,471 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-20 22:21:54,559 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2025-01-20 22:21:54,592 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2025-01-20 22:21:56,698 [Worker-35: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier  to /LearnSelinium/target/classes
+2025-01-20 22:21:58,031 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:21:58,042 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:21:58,048 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:21:58,050 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:23:56,453 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:23:56,456 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:23:56,459 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:23:56,460 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:26:03,448 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:26:03,449 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:26:03,452 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:26:03,454 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:27:50,718 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:27:50,720 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:27:50,722 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:27:50,723 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:28:17,424 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:28:17,429 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:28:17,432 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:28:17,433 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:28:32,473 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:28:32,476 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:28:32,478 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:28:32,479 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:28:54,927 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:28:54,929 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:28:54,932 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:28:54,934 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:32:44,527 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:32:44,529 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:32:44,532 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:32:44,533 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:32:56,902 [Worker-37: Launching TC_001_Search2] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier null to /LearnSelinium/target/classes
+2025-01-20 22:32:57,132 [Worker-37: Launching TC_001_Search2] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier null to /LearnSelinium/target/classes
+2025-01-20 22:32:57,230 [Worker-37: Launching TC_001_Search2] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier null to /LearnSelinium/target/classes
+2025-01-20 22:33:10,129 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:33:10,143 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:33:10,147 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:33:10,153 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:33:32,783 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:33:32,785 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:33:32,794 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:33:32,796 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:34:10,491 [Worker-10: Launching TC_001_Search] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:34:10,492 [Worker-10: Launching TC_001_Search] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-20 22:34:10,495 [Worker-10: Launching TC_001_Search] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-01-20 22:34:10,497 [Worker-10: Launching TC_001_Search] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-20 22:34:10,658 [Worker-10: Launching TC_001_Search] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier null to /LearnSelinium/target/classes
+2025-01-20 22:34:10,776 [Worker-10: Launching TC_001_Search] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier null to /LearnSelinium/target/classes
+2025-01-20 22:34:10,877 [Worker-10: Launching TC_001_Search] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/LearnSelinium: org.testleaf:LearnSelinium:0.0.1-SNAPSHOT with classifier null to /LearnSelinium/target/classes

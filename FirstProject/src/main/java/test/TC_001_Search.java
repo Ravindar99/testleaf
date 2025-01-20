@@ -17,7 +17,7 @@ public class TC_001_Search extends ProjectSpecificMethods{
 	@BeforeTest
 	public void setData() {
 		testcaseName="TC_001_Search";
-		testcaseDes="Laptop Search";
+		testcaseDes="Top searched porducts";
 		AuthorName="Ravi";
 		CategoryName="Regression";
 		excelfileName="Products";
