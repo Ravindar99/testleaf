@@ -21,5 +21,6 @@ public interface Browser {
 	
 	public boolean switchtowindow(String title);
 	//switch window using title
+
 	
 }
