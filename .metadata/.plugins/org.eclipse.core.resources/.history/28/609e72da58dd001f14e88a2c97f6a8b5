@@ -1,0 +1,11 @@
+package GooglePage;
+
+import TestNgBase.ProjectSpecificMethods;
+import design.Locators;
+
+public class File_Upload extends ProjectSpecificMethods{
+	
+	public void clickSearch() {
+		click(Locators.xpath,"//div[@class='nDcEnd']");
+	}
+}

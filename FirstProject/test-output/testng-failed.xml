@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.TC_001_Search2">
+      <class name="test.TC_image_upload">
         <methods>
           <include name="postcondition"/>
           <include name="setUpClass"/>
-          <include name="setData"/>
           <include name="precondition"/>
           <include name="StartReport"/>
           <include name="SetReportDetails"/>
           <include name="EndReport"/>
           <include name="tearDownClass"/>
-          <include name="SearchAndClick"/>
+          <include name="uploadthefile"/>
+          <include name="setData"/>
         </methods>
-      </class> <!-- test.TC_001_Search2 -->
+      </class> <!-- test.TC_image_upload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

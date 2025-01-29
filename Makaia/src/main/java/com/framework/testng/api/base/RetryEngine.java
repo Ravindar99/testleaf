@@ -6,11 +6,11 @@ import org.testng.ITestResult;
 public class RetryEngine implements IRetryAnalyzer {
 	 
     private int count = 0;
-    private static int maxTry = 0;
+    private static int maxTry = 5;
  
     public boolean retry(ITestResult iTestResult) {
         if (!iTestResult.isSuccess()) {                     
-            if (count < maxTry) {                            
+            if (count <= maxTry) {                            
                 count++;                                     
                 iTestResult.setStatus(ITestResult.FAILURE);  
                 return true;                                

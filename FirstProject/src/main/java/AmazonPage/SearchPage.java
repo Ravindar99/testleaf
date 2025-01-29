@@ -28,7 +28,7 @@ public class SearchPage extends ProjectSpecificMethods{
 			click(Locators.xpath,"(//a[@class='a-link-normal s-line-clamp-2 s-link-style a-text-normal'])[1]");
 			switchtowindow(1);
 			System.out.println(getDriver().getTitle());
-			 reportStep("The first Product", "pass"); 
+			reportStep("The first Product", "pass"); 
 			return new ProductPage();
 	}
 }

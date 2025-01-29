@@ -1,5 +1,9 @@
 package base;
 
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +11,7 @@ import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
@@ -94,9 +99,40 @@ public class SeleniumBase extends Reporter implements Element,Browser {
 
 	@Override
 	public void click(Locators type, String value) {
-		WebElement ele =locateElement(type, value);
-		ele.click();
+		try {
+			WebElement ele =locateElement(type, value);
+			ele.click();
+		} catch (ElementNotInteractableException e) {
+			reportStep("The element is not interactable "+e.getMessage(), "fail", false);
+		}
 		
+	}
+	
+	public void fileupload(WebElement ele, String data) {
+		try {
+			
+			Thread.sleep(5000);
+			
+			StringSelection stringSelection = new StringSelection(data);
+			Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
+
+			// Paste it using Robot class
+			Robot robot = new Robot();
+
+			// Enter to confirm it is uploaded
+			robot.keyPress(KeyEvent.VK_CONTROL);			
+			robot.keyPress(KeyEvent.VK_V);
+	
+			robot.keyRelease(KeyEvent.VK_V);
+			robot.keyRelease(KeyEvent.VK_CONTROL);	
+	
+			Thread.sleep(5000);
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
+			reportStep("The file is selected Successfully", "pass");
+		} catch (Exception e) {
+			reportStep("The file is not selected Successfully", "fail");
+		} 
 	}
 
 }

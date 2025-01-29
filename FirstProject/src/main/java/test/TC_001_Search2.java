@@ -18,6 +18,7 @@ public class TC_001_Search2 extends ProjectSpecificMethods{
 	}
 	@BeforeTest
 	public void setData() {
+		website ="https://www.amazon.in/";
 		testcaseName="TC_002_Search";
 		testcaseDes="Phone Search";
 		AuthorName="Rahul";

@@ -3,6 +3,7 @@ package design;
 import org.openqa.selenium.WebElement;
 
 public interface Browser {
+	
 
 	public void load(String url);
 	//open browser and load url

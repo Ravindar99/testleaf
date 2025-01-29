@@ -5,3 +5,32 @@ add git add text_2
 commit git commit -m "text_2 (commit message)"
 and pushed git push origin main
 text_2 from local repository(system) to git repository(internet)
+
+pull to extract file or changes from git repository to local repository
+
+git clone and add origin code to clone file or changes from git repository to local repository
+
+git add. to add all files or changes to staging area
+
+git init ---- Initialized empty Git repository
+
+git branch --- shows the branch name
+
+git remote add origin (code) to connect to the origin
+
+git branch -a shows all branch list
+
+git checkout to change branches
+
+if a branch is created (as a sub branch from main) it will contain all the files from main branch but not vice versa
+
+give git diff from main branch ( to the new branch) to know the difference between two branches
+
+git merge to merge two branches
+
+if you are stuck PS C:\users\rahul\desktop\GIt\githubemc2> without the above line press Q
+
+git pull origin main to pull changes from main branch to the current branch
+
+
+

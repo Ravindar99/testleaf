@@ -1,0 +1,27 @@
+package PracticeCodes;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class clickSearch {
+	
+	public static void main(String[] args) throws InterruptedException {
+		ChromeDriver driver = new ChromeDriver();
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		driver.get("https://www.google.com/");
+		driver.manage().window().maximize();
+		Thread.sleep(5000);
+		driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@name='callout']")));
+		WebElement signout = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Stay signed out']")));
+		signout.click();
+		driver.switchTo().defaultContent();
+		WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='nDcEnd']")));
+		driver.executeScript("arguments[0].click()", button);
+	}
+}

@@ -1,0 +1,10 @@
+package GooglePage;
+
+import TestNgBase.ProjectSpecificMethods;
+
+public class File_Upload extends ProjectSpecificMethods{
+	
+	public void clickSearch() {
+		
+	}
+}

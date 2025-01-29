@@ -1,0 +1,25 @@
+package GooglePage;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import TestNgBase.ProjectSpecificMethods;
+import design.Locators;
+
+public class File_Upload extends ProjectSpecificMethods{
+	
+	public File_Upload clickSearch() {
+		try {
+			click(Locators.xpath,"//div[@class='nDcEnd']");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return this;
+	}
+	
+	public File_Upload uploadimage(){
+		WebElement uploadButton = getDriver().findElement(By.xpath("//input[@type='file']"));
+		fileupload(uploadButton, "C:\\Users\\rahul\\testleaf\\FirstProject\\src\\main\\java\\UploadData\\desktop-wallpaper-kung-fu-panda-master-shifu-meditating-master-shifu.jpg");
+		return this;
+	}
+}

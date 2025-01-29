@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.testng.annotations.Ignore"/>
-    <fullyQualifiedTypeName name="com.beust.jcommander.Parameters"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
     <fullyQualifiedTypeName name="stepDefinition.ProjectSPecificMethod"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.CucumberOptions"/>
@@ -19,7 +17,6 @@
     <fullyQualifiedTypeName name="base.ProjectSpecificMethod"/>
     <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
     <fullyQualifiedTypeName name="utils.DataInt"/>
-    <fullyQualifiedTypeName name="design.Browser"/>
     <fullyQualifiedTypeName name="design.Element"/>
     <fullyQualifiedTypeName name="base.ProjectSpecificMethods"/>
     <fullyQualifiedTypeName name="base.SeleniumBase"/>
@@ -51,13 +48,16 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.NoSuchWindowException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-    <fullyQualifiedTypeName name="design.Locators"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="trial.LastString"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
     <fullyQualifiedTypeName name="base.DriverBase"/>
     <fullyQualifiedTypeName name="utils.DataLibrary"/>
+    <fullyQualifiedTypeName name="design.Locators"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.testng.IRetryAnalyzer"/>
+    <fullyQualifiedTypeName name="TestNgBase.RetryEngine"/>
+    <fullyQualifiedTypeName name="design.Browser"/>
 </qualifiedTypeNameHistroy>

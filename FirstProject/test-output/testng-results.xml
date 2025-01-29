@@ -1,59 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-22T22:30:57 IST" name="Default suite" finished-at="2025-01-22T22:31:08 IST" duration-ms="11694">
+  <suite started-at="2025-01-28T15:02:24 IST" name="Default suite" finished-at="2025-01-28T15:02:29 IST" duration-ms="4467">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TC_001_Search2@402c4085]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TC_image_upload@14028087]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-01-22T22:30:57 IST" name="Default test" finished-at="2025-01-22T22:31:08 IST" duration-ms="11694">
-      <class name="test.TC_001_Search2">
-        <test-method is-config="true" signature="StartReport()[pri:0, instance:test.TC_001_Search2@402c4085]" started-at="2025-01-22T22:30:57 IST" name="StartReport" finished-at="2025-01-22T22:30:57 IST" duration-ms="106" status="PASS">
+    <test started-at="2025-01-28T15:02:24 IST" name="Default test" finished-at="2025-01-28T15:02:29 IST" duration-ms="4467">
+      <class name="test.TC_image_upload">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:test.TC_image_upload@14028087]" started-at="2025-01-28T15:02:24 IST" name="StartReport" finished-at="2025-01-28T15:02:24 IST" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartReport -->
-        <test-method is-config="true" signature="setData()[pri:0, instance:test.TC_001_Search2@402c4085]" started-at="2025-01-22T22:30:57 IST" name="setData" finished-at="2025-01-22T22:30:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setData()[pri:0, instance:test.TC_image_upload@14028087]" started-at="2025-01-28T15:02:24 IST" name="setData" finished-at="2025-01-28T15:02:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.TC_001_Search2@402c4085]" started-at="2025-01-22T22:30:57 IST" name="setUpClass" finished-at="2025-01-22T22:30:57 IST" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.TC_image_upload@14028087]" started-at="2025-01-28T15:02:24 IST" name="setUpClass" finished-at="2025-01-28T15:02:24 IST" duration-ms="97" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4a901445]]>
+                <![CDATA[org.testng.TestRunner@56b859a6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="SetReportDetails()[pri:0, instance:test.TC_001_Search2@402c4085]" started-at="2025-01-22T22:30:57 IST" name="SetReportDetails" finished-at="2025-01-22T22:30:57 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="SetReportDetails()[pri:0, instance:test.TC_image_upload@14028087]" started-at="2025-01-28T15:02:24 IST" name="SetReportDetails" finished-at="2025-01-28T15:02:24 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetReportDetails -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_001_Search2@402c4085]" started-at="2025-01-22T22:30:57 IST" name="precondition" finished-at="2025-01-22T22:31:00 IST" duration-ms="3332" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:test.TC_image_upload@14028087]" started-at="2025-01-28T15:02:24 IST" name="precondition" finished-at="2025-01-28T15:02:27 IST" duration-ms="2883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="SearchAndClick()[pri:0, instance:test.TC_001_Search2@402c4085]" started-at="2025-01-22T22:31:00 IST" name="SearchAndClick" finished-at="2025-01-22T22:31:08 IST" duration-ms="7975" status="PASS">
+        <test-method signature="uploadthefile()[pri:0, instance:test.TC_image_upload@14028087]" started-at="2025-01-28T15:02:27 IST" name="uploadthefile" finished-at="2025-01-28T15:02:28 IST" duration-ms="1217" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(), "upload a file")]"}
+  (Session info: chrome=132.0.6834.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d080a182fb767ce6bf8fd18337642e5, findElement {using=xpath, value=//span[contains(text(), "upload a file")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56826/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d080a182fb767ce6bf8fd18337642e5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(), "upload a file")]"}
+  (Session info: chrome=132.0.6834.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d080a182fb767ce6bf8fd18337642e5, findElement {using=xpath, value=//span[contains(text(), "upload a file")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56826/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d080a182fb767ce6bf8fd18337642e5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at GooglePage.File_Upload.uploadimage(File_Upload.java:23)
+at test.TC_image_upload.uploadthefile(TC_image_upload.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchAndClick -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_001_Search2@402c4085]" started-at="2025-01-22T22:31:08 IST" name="postcondition" finished-at="2025-01-22T22:31:08 IST" duration-ms="253" status="PASS">
+        </test-method> <!-- uploadthefile -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:test.TC_image_upload@14028087]" started-at="2025-01-28T15:02:28 IST" name="postcondition" finished-at="2025-01-28T15:02:29 IST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.TC_001_Search2@402c4085]" started-at="2025-01-22T22:31:08 IST" name="tearDownClass" finished-at="2025-01-22T22:31:08 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.TC_image_upload@14028087]" started-at="2025-01-28T15:02:29 IST" name="tearDownClass" finished-at="2025-01-28T15:02:29 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="EndReport()[pri:0, instance:test.TC_001_Search2@402c4085]" started-at="2025-01-22T22:31:09 IST" name="EndReport" finished-at="2025-01-22T22:31:09 IST" duration-ms="553" status="PASS">
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:test.TC_image_upload@14028087]" started-at="2025-01-28T15:02:29 IST" name="EndReport" finished-at="2025-01-28T15:02:29 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndReport -->
-      </class> <!-- test.TC_001_Search2 -->
+      </class> <!-- test.TC_image_upload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

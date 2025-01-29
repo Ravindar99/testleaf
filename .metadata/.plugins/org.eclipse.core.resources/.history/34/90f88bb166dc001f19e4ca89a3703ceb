@@ -1,0 +1,30 @@
+package TestNgBase;
+
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+
+public class RetryEngine implements IRetryAnalyzer{
+	
+	private int retrycount = 0;
+	private static int maxretry = 5;
+
+	@Override
+	public boolean retry(ITestResult result) {
+		if (!result.isSuccess()) {
+			if (retrycount <= maxretry) {
+				retrycount++;
+				result.setStatus(ITestResult.FAILURE);
+				return true;
+			}
+			else {
+				result.setStatus(ITestResult.FAILURE);
+				return false;
+			}
+		}
+		else {
+			result.setStatus(ITestResult.SUCCESS);
+		}
+		return false;
+	}
+
+}
